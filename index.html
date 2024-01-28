@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Music</title>
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left flex">
+            <div class="listandsongs">
+                <div class="list flex">
+
+                    <div class="logo flex">
+                        myMusic
+                    </div>
+
+
+                    <div class="home flex">
+                        <img src="images/home.svg" alt="" srcset="" class="invert">
+                        <span>Home</span>
+                    </div>
+                    <div class="search flex">
+                        <img src="images/search.svg" alt="" srcset="" class="invert">
+                        <span>Search</span>
+                    </div>
+                    <div class="library flex pointer">
+                        <img src="images/library.svg" alt="" srcset="" class="invert">
+                        <span>Your Library</span>
+                    </div>
+                </div>
+
+                <div class="songs flex">
+                    <ul class="song-list flex">
+
+                    </ul>
+
+
+                </div>
+
+
+
+            </div>
+            <div class="menu-cross">
+                <img src="images/cross.svg" alt="" srcset="" class="pointer invert" >
+            </div>
+
+
+        </div>
+        <div class="right">
+            <nav class="navbar flex">
+                <div class="burger-left flex">
+                <img src="images/hamburger.svg" alt="" srcset="" class="invert pointer menu" width="25px">
+                <div class="nav-left flex">
+                    <img src="images/left.svg" alt="" srcset="" class="invert pointer">
+                    <img src="images/right.svg" alt="" srcset="" class="invert pointer">
+                </div>
+            </div>
+                <div class="nav-right flex">
+                    <div class="nav-list flex">
+                        <li><a href="index.html" id="text-bold">Home</a></li>
+                        <li><a href="premium.html">Premium</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </div>
+                    <div class="slash flex">|</div>
+                    <div class="signup-login flex">
+                        <button class="btn signup-btn">Sign up</button>
+                        <button class="btn login-btn">Login</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-right">
+                <h2>Featured Playlists</h2>
+                <div class="cardContainer flex">
+                    
+                   
+                </div>
+                <div class="playbar flex">
+                    <span id="playbar_song_name"></span>
+                    <div class="song-buttons flex">
+                        <img id="previous" src="images/previous.svg" alt="" srcset="" class="pointer hover invert">
+                        <img id="play" src="images/play.svg" alt="" srcset="" class="pointer hover invert">
+                        <img id="next" src="images/next.svg" alt="" srcset="" class="pointer hover invert">
+                    </div>
+                    <div class="time-vol flex">
+                        <span id="playbar_song_duration"></span>
+                        <div class="volume flex">
+                            <img src="images/volume.svg" alt="" srcset="" class="pointer invert">
+                            <input type="range" name="" id="" class="range pointer">
+                </div>
+
+                </div>
+                    <div class="seekbar pointer">
+                        <div class="circle pointer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
